@@ -1,0 +1,3764 @@
+{
+  "DE": {
+    "country_name": "Duitsland",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 7.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 7.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 8.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 8.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.25,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 7.25,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 7.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 8.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 8.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 9.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 10.5,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 12.75,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 15.25,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 20.25,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 24,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "BE": {
+    "country_name": "België",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 7.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 8.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 9.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 10.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 7.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 8.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 9.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 9.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 9.75,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 9.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 9.75,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 9.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 9.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 15.5,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "PT": {
+    "country_name": "Portugal",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 8.5,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 8.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 9.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 13.75,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 18.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 27.25,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 40.5,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 53.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 67,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "ES": {
+    "country_name": "Spanje",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 8.5,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 8.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 9.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 10.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 16,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 22,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 36.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 51.25,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 64,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "AT": {
+    "country_name": "Oostenrijk",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 8.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 10,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 12,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 13.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 7.5,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 8,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 12,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 14.75,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 18.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 23,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 27.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 33.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 39.25,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "FR": {
+    "country_name": "Frankrijk",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 8.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 8,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 9,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 13.5,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 19,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 22.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 28,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 30.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 33,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "EU": {
+    "country_name": "Europa",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "BG": {
+    "country_name": "Bulgarije",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 37.5,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 39.25,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 41.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 43.5,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 60,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 74.25,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "EE": {
+    "country_name": "Estland",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 19.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 24.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 33.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 44.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 57,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 68,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "HU": {
+    "country_name": "Hongarije",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 21,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 25.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 33.25,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 42.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 53.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 63.75,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "LV": {
+    "country_name": "Letland",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 19.5,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 27.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 35,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 44.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 63,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 75,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "LT": {
+    "country_name": "Litouwen",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 19.75,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 26.25,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 36.25,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 44.25,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 60.5,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 72.5,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "PL": {
+    "country_name": "Polen",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 18.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 22.25,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 25,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 43.25,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 59.25,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 73.5,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "RO": {
+    "country_name": "Roemenië",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 30.25,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 34.75,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 43.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 60.25,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 74.5,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "SI": {
+    "country_name": "Slovenië",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 22.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 29,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 35.25,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 44.25,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 61,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 75.75,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "SK": {
+    "country_name": "Slowakije",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 20.75,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 24.5,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 30.75,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 37.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 46.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 54.75,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "CZ": {
+    "country_name": "Tsjechië",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 18.75,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 22.5,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 28.25,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 35.25,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 43.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 51.25,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "LU": {
+    "country_name": "Luxemburg",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 7.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 8.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 9.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 9.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 14.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 15.25,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 18.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 23.5,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 32.25,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 40.25,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "GB": {
+    "country_name": "Verenigd Koninkrijk",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 6.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "CY": {
+    "country_name": "Cyprus",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 15,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9.5,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 11.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 15,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 20,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 28.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 39.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 63.5,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 87,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 105.5,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "HR": {
+    "country_name": "Kroatië",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 15,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9.5,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 11.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 15,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 19,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 22.25,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 30.75,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 44,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 59.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 70.5,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "IT": {
+    "country_name": "Italië",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 9.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 9.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 13.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 16.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 22,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 28.5,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 35.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 42.5,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "CH": {
+    "country_name": "Zwitserland",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.75,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 13.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8.25,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9.5,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 11.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.75,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 13.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "IE": {
+    "country_name": "Ierland",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 9.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 13.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 14.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 7.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 9.25,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 11.5,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 12,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 12.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 17,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 22.5,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 27.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 35,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 45.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 61.25,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "SE": {
+    "country_name": "Zweden",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 10,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 10.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 9.5,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 10.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 10.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 11,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 16.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 19,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 22.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 28.5,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 39,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 48.75,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "FI": {
+    "country_name": "Finland",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 10.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 10.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 15.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7.25,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 10,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 11.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 11.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 13.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 22.5,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 30.25,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 37.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 48.5,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 62.75,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 74,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "DK": {
+    "country_name": "Denemarken",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 10.5,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 11,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 12,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 13,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8.25,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 10.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 11,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 12,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 12.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 16.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 22.5,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 27,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 34.25,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 47,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 58.25,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "GR": {
+    "country_name": "Griekenland",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 10.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 11.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 14,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 19.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7.25,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 10.25,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 11.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 14,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 15.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 22.25,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 31.25,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 40.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 64.75,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 86,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 102.5,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "MT": {
+    "country_name": "Malta",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 10.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 11.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 14,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 19.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 10.25,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 11.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 14,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 15,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 22.75,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 31.75,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 42.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 64.25,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 90.5,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 109.25,
+        "label": "23–31.5kg"
+      }
+    ]
+  },
+  "NO": {
+    "country_name": "Noorwegen",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 11.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 12,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 13.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 15.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 10.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 12,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 13.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 14,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "CN": {
+    "country_name": "China",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 15.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 17.25,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 19.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 22.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7.75,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 11,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 14.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 18,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "HK": {
+    "country_name": "Hong Kong",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 15.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 17.25,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 19.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 22.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 11,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 14.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 18,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "BR": {
+    "country_name": "Brazilië",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 16,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 19.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 20.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 23.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7.75,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 10.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 17.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 22.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "ZA": {
+    "country_name": "Zuid-Afrika",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 16.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 19.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 21.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 25.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 12.25,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 20,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 22.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "US": {
+    "country_name": "Verenigde Staten",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 16.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 19.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 21.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 25.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7.75,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 10.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 17.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 22.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "CA": {
+    "country_name": "Canada",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 17.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 20.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 21.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 25.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 7.75,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 10.75,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 17.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 22.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "JP": {
+    "country_name": "Japan",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 17.25,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 19.25,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 21.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 25.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8.75,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 12.5,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 20.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 22.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "AU": {
+    "country_name": "Australië",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 17.5,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 21.25,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 22.75,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 29.75,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 9,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 13,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 22,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 25,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "NZ": {
+    "country_name": "Nieuw-Zeeland",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 17.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 21.5,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 24.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 31,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6.75,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 9,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 13,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13.75,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 22,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 25,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "WORLD": {
+    "country_name": "Wereld",
+    "non_mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.25,
+        "base_cost": 18.75,
+        "label": "0–250g"
+      },
+      {
+        "min_weight": 0.251,
+        "max_weight": 0.5,
+        "base_cost": 20.75,
+        "label": "250–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 22.25,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 25.25,
+        "label": "1000–2000g"
+      }
+    ],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 6.25,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 8.75,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 12.5,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 13.25,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 20.75,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 23.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": []
+  },
+  "NL": {
+    "country_name": "Nederland",
+    "non_mailbox": [],
+    "mailbox": [
+      {
+        "min_weight": 0,
+        "max_weight": 0.1,
+        "base_cost": 5.5,
+        "label": "0–100g"
+      },
+      {
+        "min_weight": 0.101,
+        "max_weight": 0.2,
+        "base_cost": 5.5,
+        "label": "100–200g"
+      },
+      {
+        "min_weight": 0.201,
+        "max_weight": 0.35,
+        "base_cost": 5.5,
+        "label": "200–350g"
+      },
+      {
+        "min_weight": 0.351,
+        "max_weight": 0.5,
+        "base_cost": 5.5,
+        "label": "350–500g"
+      },
+      {
+        "min_weight": 0.501,
+        "max_weight": 1,
+        "base_cost": 5.5,
+        "label": "500–1000g"
+      },
+      {
+        "min_weight": 1.001,
+        "max_weight": 2,
+        "base_cost": 5.5,
+        "label": "1000–2000g"
+      }
+    ],
+    "eu_parcel": [
+      {
+        "min_weight": 0,
+        "max_weight": 2,
+        "base_cost": 7.5,
+        "label": "0–2kg"
+      },
+      {
+        "min_weight": 2.001,
+        "max_weight": 5,
+        "base_cost": 7.5,
+        "label": "2–5kg"
+      },
+      {
+        "min_weight": 5.001,
+        "max_weight": 10,
+        "base_cost": 7.5,
+        "label": "5–10kg"
+      },
+      {
+        "min_weight": 10.001,
+        "max_weight": 20,
+        "base_cost": 7.5,
+        "label": "10–20kg"
+      },
+      {
+        "min_weight": 20.001,
+        "max_weight": 23,
+        "base_cost": 7.5,
+        "label": "20–23kg"
+      },
+      {
+        "min_weight": 23.001,
+        "max_weight": 31.5,
+        "base_cost": 13.25,
+        "label": "23–31.5kg"
+      }
+    ]
+  }
+}
