@@ -39,8 +39,26 @@ export async function POST(request: NextRequest) {
         carrier_service: data.carrier_service,
       });
     } else {
+      // Format Shopify errors into a readable string
+      let errorMessage = 'Failed to register carrier service';
+
+      if (data.errors) {
+        if (typeof data.errors === 'string') {
+          errorMessage = data.errors;
+        } else if (typeof data.errors === 'object') {
+          // Shopify errors come as objects like { base: ["error1", "error2"] }
+          const errorMessages = Object.entries(data.errors)
+            .map(([field, messages]) => {
+              const msgs = Array.isArray(messages) ? messages.join(', ') : messages;
+              return field === 'base' ? msgs : `${field}: ${msgs}`;
+            })
+            .join('; ');
+          errorMessage = errorMessages || errorMessage;
+        }
+      }
+
       return NextResponse.json(
-        { error: data.errors || 'Failed to register carrier service', details: data },
+        { error: errorMessage, details: data },
         { status: response.status }
       );
     }

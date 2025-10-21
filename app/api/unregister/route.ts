@@ -40,8 +40,27 @@ export async function DELETE(request: NextRequest) {
       });
     } else {
       const data = await response.json();
+
+      // Format Shopify errors into a readable string
+      let errorMessage = 'Failed to unregister carrier service';
+
+      if (data.errors) {
+        if (typeof data.errors === 'string') {
+          errorMessage = data.errors;
+        } else if (typeof data.errors === 'object') {
+          // Shopify errors come as objects like { base: ["error1", "error2"] }
+          const errorMessages = Object.entries(data.errors)
+            .map(([field, messages]) => {
+              const msgs = Array.isArray(messages) ? messages.join(', ') : messages;
+              return field === 'base' ? msgs : `${field}: ${msgs}`;
+            })
+            .join('; ');
+          errorMessage = errorMessages || errorMessage;
+        }
+      }
+
       return NextResponse.json(
-        { error: data.errors || 'Failed to unregister carrier service', details: data },
+        { error: errorMessage, details: data },
         { status: response.status }
       );
     }
