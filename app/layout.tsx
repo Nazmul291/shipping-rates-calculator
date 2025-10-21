@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{process.env.NEXT_PUBLIC_APP_PROCTED=="true" ? <p>App is running and working</p> : children }</body>
+      <body>{process.env.NEXT_PUBLIC_APP_PROTECTED=="true" ? <p>App is running and working</p> : children }</body>
     </html>
   );
 }
