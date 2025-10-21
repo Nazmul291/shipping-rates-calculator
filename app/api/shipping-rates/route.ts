@@ -132,7 +132,7 @@ export async function POST(request: NextRequest) {
         countryRates.non_mailbox,
         'Pakje buitenland',
         'niet door brievenbus',
-        'For packages that do not fit through the mailbox'
+        'For packages 0–2000 grams that do not fit through the mailbox'
       );
     }
 
@@ -142,7 +142,7 @@ export async function POST(request: NextRequest) {
         countryRates.mailbox,
         'Pakje buitenland brievenbuspakje',
         'door brievenbus',
-        'For packages that fit through the mailbox'
+        'For packages 0–2000 grams that fit through the mailbox'
       );
     }
 
@@ -152,7 +152,7 @@ export async function POST(request: NextRequest) {
         countryRates.eu_parcel,
         'Pakket EU',
         '',
-        'For packages within the EU'
+        'For packages 0–31.5 kg within the EU'
       );
     }
 
