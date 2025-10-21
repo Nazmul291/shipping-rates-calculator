@@ -12,6 +12,8 @@ export default function Home() {
 
   const [registering, setRegistering] = useState(false);
   const [registerResult, setRegisterResult] = useState<any>(null);
+  const [unregistering, setUnregistering] = useState(false);
+  const [unregisterResult, setUnregisterResult] = useState<any>(null);
 
   useEffect(() => {
     checkStatus();
@@ -55,6 +57,45 @@ export default function Home() {
     }
   };
 
+  const unregisterCarrierService = async () => {
+    if (!status.carrier_service?.id) {
+      setUnregisterResult({ success: false, error: 'No carrier service ID found' });
+      return;
+    }
+
+    if (!confirm('Are you sure you want to unregister the carrier service?')) {
+      return;
+    }
+
+    setUnregistering(true);
+    setUnregisterResult(null);
+
+    try {
+      const response = await fetch('/api/unregister', {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          carrier_service_id: status.carrier_service.id,
+        }),
+      });
+      const data = await response.json();
+
+      if (response.ok) {
+        setUnregisterResult({ success: true, data });
+        // Refresh status after successful unregistration
+        setTimeout(() => checkStatus(), 1000);
+      } else {
+        setUnregisterResult({ success: false, error: data.error || 'Unregistration failed' });
+      }
+    } catch (error: any) {
+      setUnregisterResult({ success: false, error: error.message });
+    } finally {
+      setUnregistering(false);
+    }
+  };
+
   return (
         <div>
           <h1>Shopify Carrier Service</h1>
@@ -74,6 +115,21 @@ export default function Home() {
                       <p>Callback URL: {status.carrier_service.callback_url}</p>
                     </div>
                   )}
+                  <div style={{ marginTop: '1rem' }}>
+                    <button
+                      onClick={unregisterCarrierService}
+                      disabled={unregistering}
+                      style={{
+                        backgroundColor: '#dc3545',
+                        color: 'white',
+                        border: 'none',
+                        padding: '0.5rem 1rem',
+                        cursor: unregistering ? 'not-allowed' : 'pointer'
+                      }}
+                    >
+                      {unregistering ? 'Unregistering...' : 'Unregister Carrier Service'}
+                    </button>
+                  </div>
                 </div>
               ) : (
                 <div>
@@ -103,6 +159,22 @@ export default function Home() {
                     <div>
                       <p>✗ Registration failed</p>
                       <p>Error: {registerResult.error}</p>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {unregisterResult && (
+                <div>
+                  <h2>Unregistration Result</h2>
+                  {unregisterResult.success ? (
+                    <div>
+                      <p>✓ Successfully unregistered!</p>
+                    </div>
+                  ) : (
+                    <div>
+                      <p>✗ Unregistration failed</p>
+                      <p>Error: {unregisterResult.error}</p>
                     </div>
                   )}
                 </div>

@@ -33,7 +33,7 @@ export async function GET() {
 
     // Check if our carrier service is registered
     const ourService = carrierServices.find((service: any) =>
-      service.name === 'Custom Shipping Rates'
+      service.name === 'Shipping Rates Calculator'
     );
 
     return NextResponse.json({
